@@ -1,4 +1,4 @@
 from pydantic import BaseModel
 
-class Sentence(BaseModel):
-    sentence: str
+class Audio(BaseModel):
+    audio_data: str
